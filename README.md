@@ -55,6 +55,16 @@ git clone https://github.com/jperez-qwerty/Trabajo-Final-Entornos.git
 
 ---
 
+## 🛠️ Reflexión Técnica del Desarrollo
+
+Durante la implementación del núcleo de lógica de este despertador inteligente, se han aplicado conceptos avanzados de ingeniería de software para asegurar un sistema escalable y fácil de mantener:
+
+* **Separación de Responsabilidades:** La lógica de negocio está completamente desacoplada de la interfaz de usuario. Clases como `AlarmManager` se encargan exclusivamente de la gestión horaria y el control de colisiones, facilitando futuras implementaciones de interfaces gráficas sin alterar el motor interno.
+* **Uso del Patrón Strategy:** Se ha implementado este patrón de diseño para dotar al sistema de una flexibilidad total a la hora de definir los comportamientos de parada (retos matemáticos adaptados por dificultad con `MathChallengeStrategy`) y las lógicas de repetición de alarmas (`WeeklyRepeatStrategy`). Esto permite añadir nuevos tipos de retos o calendarios sin modificar el código existente.
+* **Control de Concurrencia y Conflictos:** El algoritmo de detección de colisiones previene errores comunes en sistemas de alarmas al analizar en tiempo real solapamientos menores a 2 minutos, garantizando la estabilidad de la parrilla horaria antes de activar cualquier evento.
+
+---
+
 ## 💡 Reflexión sobre el uso de IA y Validación Manual
 
 Durante el desarrollo de esta práctica se ha utilizado un modelo de IA generativa como herramienta de asistencia técnica y codiseño arquitectónico bajo un modelo de uso responsable.
