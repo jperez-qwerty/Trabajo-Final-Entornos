@@ -26,6 +26,7 @@ Este proyecto implementa la lógica de negocio interna y desacoplada para una ap
 
 ## 📂 Estructura del Proyecto
 
+```text
 Trabajo_Final_Entornos/
 ├── src/
 │   └── com/
