@@ -26,7 +26,6 @@ Este proyecto implementa la lógica de negocio interna y desacoplada para una ap
 
 ## 📂 Estructura del Proyecto
 
-```text
 Trabajo_Final_Entornos/
 ├── src/
 │   └── com/
@@ -41,11 +40,22 @@ Trabajo_Final_Entornos/
 │               ├── StopStrategy.java
 │               └── WeeklyRepeatStrategy.java
 └── README.md
-
 ---
 
 ## ⚙️ Instalación y Ejecución
 
 1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+git clone https://github.com/jperez-qwerty/Trabajo-Final-Entornos.git
+
+2. Importa el proyecto en tu IDE preferido (Eclipse o VS Code) como un Java Project.
+3. Dirígete a la clase src/com/despertador/core/Principal.java.
+4. Haz clic derecho sobre el archivo y selecciona Run As > Java Application.
+5. Interactúa con el simulador a través de la consola introduciendo los resultados de los retos matemáticos planteados.
+
+---
+
+## 💡 Reflexión sobre el uso de IA y Validación Manual
+
+Durante el desarrollo de esta práctica se ha utilizado un modelo de IA generativa como herramienta de asistencia técnica y codiseño arquitectónico bajo un modelo de uso responsable.
+
+Todo el código fue probado, estructurado e integrado en local de forma exhaustiva en el entorno de desarrollo por JOSE PEREZ LORENTE.
